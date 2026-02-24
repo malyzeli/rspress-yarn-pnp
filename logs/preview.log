@@ -1,0 +1,47 @@
+🔥 Rspress v2.0.3
+
+(node:121085) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/dev/rspress-yarn/rspress.config.ts?t=1771952915867 is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/dev/rspress-yarn/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+warn    react not found:
+    Error: Cannot find module 'react'
+info    [Rspress v2] Rspress support React 18 and 19, please confirm that both react and react-dom are installed in package.json with the same version.
+warn    react/jsx-runtime not found:
+    Error: Cannot find module 'react/jsx-runtime'
+info    [Rspress v2] Rspress support React 18 and 19, please confirm that both react and react-dom are installed in package.json with the same version.
+warn    react/jsx-dev-runtime not found:
+    Error: Cannot find module 'react/jsx-dev-runtime'
+info    [Rspress v2] Rspress support React 18 and 19, please confirm that both react and react-dom are installed in package.json with the same version.
+warn    react/package.json not found:
+    Error: Cannot find module 'react/package.json'
+info    [Rspress v2] Rspress support React 18 and 19, please confirm that both react and react-dom are installed in package.json with the same version.
+warn    react-dom not found:
+    Error: Cannot find module 'react-dom'
+info    [Rspress v2] Rspress support React 18 and 19, please confirm that both react and react-dom are installed in package.json with the same version.
+warn    react-dom/client not found:
+    Error: Cannot find module 'react-dom/client'
+info    [Rspress v2] Rspress support React 18 and 19, please confirm that both react and react-dom are installed in package.json with the same version.
+warn    react-dom/server not found:
+    Error: Cannot find module 'react-dom/server'
+info    [Rspress v2] Rspress support React 18 and 19, please confirm that both react and react-dom are installed in package.json with the same version.
+warn    react-dom/package.json not found:
+    Error: Cannot find module 'react-dom/package.json'
+info    [Rspress v2] Rspress support React 18 and 19, please confirm that both react and react-dom are installed in package.json with the same version.
+warn    react-router-dom not found:
+ Error: Cannot find module 'react-router-dom/package.json'
+    at resolveReactRouterDomAlias (file:///home/dev/.yarn/berry/cache/@rspress-core-npm-2.0.3-c87d0adf5b-10c0.zip/node_modules/@rspress/core/dist/node/utils/reactAlias.js:33:35)
+    at async Promise.all (index 2)
+    at async createInternalBuildConfig (file:///home/dev/.yarn/berry/cache/@rspress-core-npm-2.0.3-c87d0adf5b-10c0.zip/node_modules/@rspress/core/dist/node/initRsbuild.js:46:65)
+    at async initRsbuild (file:///home/dev/.yarn/berry/cache/@rspress-core-npm-2.0.3-c87d0adf5b-10c0.zip/node_modules/@rspress/core/dist/node/initRsbuild.js:352:35)
+    at async serve (file:///home/dev/.yarn/berry/cache/@rspress-core-npm-2.0.3-c87d0adf5b-10c0.zip/node_modules/@rspress/core/dist/node/serve.js:20:21)
+    at async CAC.<anonymous> (file:///home/dev/.yarn/berry/cache/@rspress-core-npm-2.0.3-c87d0adf5b-10c0.zip/node_modules/@rspress/core/dist/cli/index.js:105:5)
+file:///home/dev/rspress-yarn/.yarn/__virtual__/@rsbuild-core-virtual-94efbf5785/3/.yarn/berry/cache/@rsbuild-core-npm-2.0.0-beta.3-9610d4247d-10c0.zip/node_modules/@rsbuild/core/dist/131.js:8824
+                if (!(0, external_node_fs_.existsSync)(distPath)) throw Error(`${color.dim('[rsbuild:preview]')} The output directory ${color.yellow(distPath)} does not exist, please build the project before previewing.`);
+                                                                        ^
+
+Error: [rsbuild:preview] The output directory /home/dev/rspress-yarn/doc_build does not exist, please build the project before previewing.
+    at Object.preview (file:///home/dev/rspress-yarn/.yarn/__virtual__/@rsbuild-core-virtual-94efbf5785/3/.yarn/berry/cache/@rsbuild-core-npm-2.0.0-beta.3-9610d4247d-10c0.zip/node_modules/@rsbuild/core/dist/131.js:8824:73)
+    at async CAC.<anonymous> (file:///home/dev/.yarn/berry/cache/@rspress-core-npm-2.0.3-c87d0adf5b-10c0.zip/node_modules/@rspress/core/dist/cli/index.js:105:5)
+
+Node.js v24.13.1
