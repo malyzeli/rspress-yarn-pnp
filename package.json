@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@rspress/core": "2.0.3",
+    "typescript": "5.9.3"
+  },
+  "name": "rspress-yarn",
+  "packageManager": "yarn@4.12.0",
+  "scripts": {
+    "build": "rspress build",
+    "dev": "rspress dev",
+    "preview": "rspress preview"
+  }
+}
